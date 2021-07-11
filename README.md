@@ -64,14 +64,14 @@ sudo docker pull  nevinee/jd:v4
 ```
 
 ## Docker 部署京东脚本
-# e大v4部署
+# e大v4 当前目录部署
 
 ```
 docker run -dit \
--v /jd/config:/jd/config \
--v /jd/log:/jd/log \
--v /jd/scripts:/jd/scripts \
--v /jd/own:/jd/own \
+-v $PWD/jd/config:/jd/config \
+-v $PWD/jd/log:/jd/log \
+-v $PWD/jd/scripts:/jd/scripts \
+-v $PWD/jd/own:/jd/own \
 -p 5678:5678 \
 -e ENABLE_HANGUP=true \
 -e ENABLE_WEB_PANEL=true \
