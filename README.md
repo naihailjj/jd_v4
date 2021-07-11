@@ -124,7 +124,7 @@ nevinee/jd:v4
 
 ##v4更新命令
 ```
-docker exec -it jd1 bash jup
+docker exec -it jd bash jup
 ``` 
 
 
@@ -132,12 +132,12 @@ docker exec -it jd1 bash jup
 -- 开启DIY每次重启会重启面板
 #先进入容器
 ```
-docker exec -it jd1 bash
+docker exec -it jd bash
 ```
 
 #拉取面板文件
 ```
-wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
+wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && bash v4mb.sh
 ```
 #重启手动运行面板
 #先进入容器
