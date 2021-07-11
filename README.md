@@ -75,7 +75,7 @@ docker run -dit \
 -p 5678:5678 \
 -e ENABLE_HANGUP=true \
 -e ENABLE_WEB_PANEL=true \
--e ENABLE_WEB_TTYD=true \
+-e ENABLE_WEB_TTYD=flase \
 --name jd \
 --hostname jd \
 --restart always \
@@ -92,7 +92,7 @@ docker run -dit \
 -p 5679:5678 \
 -e ENABLE_HANGUP=true \
 -e ENABLE_WEB_PANEL=true \
--e ENABLE_WEB_TTYD=true \
+-e ENABLE_WEB_TTYD=flase \
 --name 容器名 \
 --hostname 容器名 \
 --restart always \
@@ -110,7 +110,7 @@ docker run -dit \
 -p 5679:5678 \
 -e ENABLE_HANGUP=true \
 -e ENABLE_WEB_PANEL=true \
--e ENABLE_WEB_TTYD=true \
+-e ENABLE_WEB_TTYD=flase \
 -e REPO_URL=https://gitee.com/jiulan0229/lxk_scripts.git \
 -e JD_SCRIPTS_URL=https://gitee.com/jiulan0229/lxk_scripts.git \
 -e JD_SCRIPTS_BRANCH="master" \
