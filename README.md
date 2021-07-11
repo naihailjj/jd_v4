@@ -135,7 +135,7 @@ docker exec -it jd bash jup
 docker exec -it jd bash
 ```
 
-#拉取面板文件
+#拉取面板安装文件
 ```
 wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && bash v4mb.sh
 ```
