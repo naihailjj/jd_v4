@@ -137,7 +137,7 @@ docker exec -it jd1 bash
 
 #拉取面板文件
 ```
-wget -q https://ghproxy.com/https://raw.githubusercontent.com/jiulan/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
+wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
 ```
 #重启手动运行面板
 #先进入容器
@@ -155,12 +155,12 @@ pm2 start server.js
 
 #替换server.js 添加update_cookie 函数、解决无法扫码获取ck、屏蔽shell接口
 ```
-wget -q https://ghproxy.com/https://raw.githubusercontent.com/jiulan/jd_v4/main/server.js -O /jd/panel/server.js
+wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/server.js -O /jd/panel/server.js
 ```
 
 #屏蔽拉取lxk库
 ```
-wget -q https://ghproxy.com/https://raw.githubusercontent.com/jiulan/jd_v4/main/jup.sh -O /jd/jup.sh
+wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/jup.sh -O /jd/jup.sh
 ```
 
 
