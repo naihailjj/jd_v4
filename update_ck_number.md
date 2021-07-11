@@ -5,7 +5,7 @@
 step:1
 - 进入v4容器
 ```
-wget -q https://ghproxy.com/https://raw.githubusercontent.com/jiulan/jd_v4/main/update_ck_number.sh
+wget -q https://ghproxy.com/https://raw.githubusercontent.com/naihailjj/jd_v4/main/update_ck_number.sh
 ```
 
 step:2
