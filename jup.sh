@@ -426,7 +426,7 @@ own脚本目录：$dir_own
 update_shell () {
     #echo -e "--------------------------------------------------------------\n"
     ## 更新jup任务的cron
-    random_update_jup_cron
+    ##random_update_jup_cron
 
 #    ## 重置仓库romote url
 #    if [[ $JD_DIR ]] && [[ $ENABLE_RESET_REPO_URL == true ]]; then
